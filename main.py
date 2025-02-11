@@ -7,7 +7,7 @@ app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://paper-lingo.vercel.app/"],  
+    allow_origins=["https://paper-lingo.vercel.app"],  
     allow_credentials=True,
     allow_methods=["GET", "POST", "OPTIONS"],  
     allow_headers=["Authorization", "Content-Type"],
